@@ -89,7 +89,7 @@ nav{
         grid-gap: 20px;
 
         > div{
-            background: white;
+            background-color: white;
 
             h6{
                 color: $green;
@@ -142,12 +142,16 @@ nav{
                 transition: 0.5s;
             }
 
+            img{
+                width: 100%;
+            }
+
             &:hover{
                 hr{
                     width: 325px;
                 }
 
-                div{
+                div::before{
                     opacity: 0.5;
                 }
             }
