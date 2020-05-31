@@ -1,3 +1,8 @@
+$green: #49aa45;
+$gray333: #333333;
+$yellow: #f5bb28;
+$grayccc: #cccccc;
+
 *{
     margin: 0;
     padding: 0;
@@ -76,8 +81,8 @@ nav{
     }
 
     #news{
+        width: 1200px;
         margin: 59px auto 0px;
-        padding: 0px 370px;
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-gap: 20px;
@@ -86,7 +91,7 @@ nav{
             background: white;
 
             h6{
-                color: #49aa45;
+                color: $green;
                 text-align: center;
                 margin-top: 39px;
                 font-size: 12px;
@@ -99,6 +104,7 @@ nav{
                 text-align: center;
                 font-size: 22px;
                 letter-spacing: 6.6px;
+                font-weight: bold;
             }
 
             hr{
@@ -113,6 +119,7 @@ nav{
                 font-weight: 300;
                 letter-spacing: 4.8px;
                 line-height: 1.88;
+                color: $gray333;
             }
 
             img{
@@ -121,5 +128,104 @@ nav{
                 margin: 31px 30px 41px;
             }
         }        
+    }
+
+    #drink{
+        margin-top: 60px;
+        position: relative;
+        text-align: center;
+
+        #text{
+            width: 230px;
+            position: absolute;
+            top: 73px;
+            right: 530px;
+
+            h5{
+                color: $yellow;
+                font-size: 30px;
+                font-weight: 300;
+                letter-spacing: 8px;
+                text-align: center;
+            }
+
+            h2{
+                margin-top: 30px;
+                color: $grayccc;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 300;
+                letter-spacing: 2.8px;
+            }
+
+            p{
+                margin-top: 46px;
+                font-size: 20px;
+                line-height: 2.5;
+                letter-spacing: 5px;
+                text-align: left;
+            }
+        }
+    }
+
+    #idea{
+        width: 1200px;
+        margin: 60px auto 0px;
+        display: grid;
+        grid-template-columns: 620px 560px;
+        grid-gap: 20px;
+
+        img{
+            width: 620px;
+            height: 360px;
+            border: 5px solid white;
+        }
+
+        h3{
+            margin-top: 25px;
+            font-size: 24px;
+            font-weight: 300;
+            letter-spacing: 7.2px;
+        }
+
+        h4{
+            margin-top: 50px;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 2.5;
+            letter-spacing: 6px;
+        }
+
+        button{
+            margin-top: 50px;
+            width: 220px;
+            height: 52px;
+            padding:auto;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 5.4px;
+            background: rgba(0,0,0,0);
+            border: 1px solid black;
+        }
+    }
+
+    #footer{
+        padding-top: 126px;
+        height: 420px;
+        text-align: center;
+
+        p{
+            margin-top: 73px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 300;
+            letter-spacing: 3.6px;
+            font-weight: bold;
+
+            &:nth-child(3){
+                margin-top: 14px;
+                font-size: 10px;
+            }
+        }
     }
 }

@@ -92,8 +92,8 @@ nav #box #social a:nth-child(2) {
 }
 
 #contant #news {
+  width: 1200px;
   margin: 59px auto 0px;
-  padding: 0px 370px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
@@ -119,6 +119,7 @@ nav #box #social a:nth-child(2) {
   text-align: center;
   font-size: 22px;
   letter-spacing: 6.6px;
+  font-weight: bold;
 }
 
 #contant #news div hr {
@@ -133,11 +134,113 @@ nav #box #social a:nth-child(2) {
   font-weight: 300;
   letter-spacing: 4.8px;
   line-height: 1.88;
+  color: #333333;
 }
 
 #contant #news div img {
   width: 320px;
   height: 320px;
   margin: 31px 30px 41px;
+}
+
+#contant #drink {
+  margin-top: 60px;
+  position: relative;
+  text-align: center;
+}
+
+#contant #drink #text {
+  width: 230px;
+  position: absolute;
+  top: 73px;
+  right: 530px;
+}
+
+#contant #drink #text h5 {
+  color: #f5bb28;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 8px;
+  text-align: center;
+}
+
+#contant #drink #text h2 {
+  margin-top: 30px;
+  color: #cccccc;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2.8px;
+}
+
+#contant #drink #text p {
+  margin-top: 46px;
+  font-size: 20px;
+  line-height: 2.5;
+  letter-spacing: 5px;
+  text-align: left;
+}
+
+#contant #idea {
+  width: 1200px;
+  margin: 60px auto 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 620px 560px;
+      grid-template-columns: 620px 560px;
+  grid-gap: 20px;
+}
+
+#contant #idea img {
+  width: 620px;
+  height: 360px;
+  border: 5px solid white;
+}
+
+#contant #idea h3 {
+  margin-top: 25px;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 7.2px;
+}
+
+#contant #idea h4 {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 2.5;
+  letter-spacing: 6px;
+}
+
+#contant #idea button {
+  margin-top: 50px;
+  width: 220px;
+  height: 52px;
+  padding: auto;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 5.4px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid black;
+}
+
+#contant #footer {
+  padding-top: 126px;
+  height: 420px;
+  text-align: center;
+}
+
+#contant #footer p {
+  margin-top: 73px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 3.6px;
+  font-weight: bold;
+}
+
+#contant #footer p:nth-child(3) {
+  margin-top: 14px;
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
