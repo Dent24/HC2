@@ -123,8 +123,15 @@ nav #box #social a:nth-child(2) {
 }
 
 #contant #news div hr {
-  width: 325px;
+  border: 0.5px solid black;
+  width: 0px;
   margin: 0px auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#contant #news div:hover hr {
+  width: 325px;
 }
 
 #contant #news div p {

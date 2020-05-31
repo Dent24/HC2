@@ -109,8 +109,16 @@ nav{
             }
 
             hr{
-                width: 325px;
+                border: 0.5px solid black;
+                width: 0px;
                 margin: 0px auto;
+                transition: 0.5s;
+            }
+
+            &:hover{
+                hr{
+                    width: 325px;
+                }
             }
 
             p{
