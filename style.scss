@@ -5,10 +5,121 @@
     box-sizing: border-box;
 }
 
+nav{
+    position: fixed;
+    width: 1920px;
 
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    #box{
+        margin: 59px auto 0px;
+        width: 1200px;
+        display: grid;
+        grid-template-columns: 204px 351px 394px 120px 150px;
+
+        #link{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            align-items: flex-end;
+
+            a{
+                font-size: 18px;
+
+                &:nth-child(2){
+                    text-align: center;
+                }
+
+                &:nth-child(3){
+                    text-align: right;
+                }
+            }
+        }
+
+        #social{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            align-items: flex-end;
+
+            a:nth-child(2){
+                text-align: right;
+            }
+        }
+    }
+}
 
 #banner{
     background-image: url(./img/橫幅.png);
     width: 1920px;
     height: 1280px;
+    display: grid;
+    align-items: center;
+
+    img{
+        margin: 0px auto;
+    }
+}
+
+#contant{
+    width: 1920px;
+    background-image: url(./img/背景紙張素材.png);
+    border: 0.05px solid rgba(0,0,0,0);
+
+    h1{
+        text-align: center;
+        margin-top: 46px;
+        font-size: 32px;
+        letter-spacing: 9.6px;
+        font-weight: 300;
+    }
+
+    #news{
+        margin: 59px auto 0px;
+        padding: 0px 370px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+
+        div{
+            background: white;
+
+            h6{
+                color: #49aa45;
+                text-align: center;
+                margin-top: 39px;
+                font-size: 12px;
+                font-weight: 300;
+                letter-spacing: 3.6px;
+            }
+
+            h2{
+                margin-top: 27px;
+                text-align: center;
+                font-size: 22px;
+                letter-spacing: 6.6px;
+            }
+
+            hr{
+                width: 325px;
+                margin: 0px auto;
+            }
+
+            p{
+                width: 322px;
+                margin: 28px auto 0px;
+                font-size: 16px;
+                font-weight: 300;
+                letter-spacing: 4.8px;
+                line-height: 1.88;
+            }
+
+            img{
+                width: 320px;
+                height: 320px;
+                margin: 31px 30px 41px;
+            }
+        }        
+    }
 }

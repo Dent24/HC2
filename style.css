@@ -7,9 +7,137 @@
           box-sizing: border-box;
 }
 
+nav {
+  position: fixed;
+  width: 1920px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav #box {
+  margin: 59px auto 0px;
+  width: 1200px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 204px 351px 394px 120px 150px;
+      grid-template-columns: 204px 351px 394px 120px 150px;
+}
+
+nav #box #link {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+nav #box #link a {
+  font-size: 18px;
+}
+
+nav #box #link a:nth-child(2) {
+  text-align: center;
+}
+
+nav #box #link a:nth-child(3) {
+  text-align: right;
+}
+
+nav #box #social {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+nav #box #social a:nth-child(2) {
+  text-align: right;
+}
+
 #banner {
   background-image: url(./img/橫幅.png);
   width: 1920px;
   height: 1280px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#banner img {
+  margin: 0px auto;
+}
+
+#contant {
+  width: 1920px;
+  background-image: url(./img/背景紙張素材.png);
+  border: 0.05px solid rgba(0, 0, 0, 0);
+}
+
+#contant h1 {
+  text-align: center;
+  margin-top: 46px;
+  font-size: 32px;
+  letter-spacing: 9.6px;
+  font-weight: 300;
+}
+
+#contant #news {
+  margin: 59px auto 0px;
+  padding: 0px 370px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+#contant #news div {
+  background: white;
+}
+
+#contant #news div h6 {
+  color: #49aa45;
+  text-align: center;
+  margin-top: 39px;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 3.6px;
+}
+
+#contant #news div h2 {
+  margin-top: 27px;
+  text-align: center;
+  font-size: 22px;
+  letter-spacing: 6.6px;
+}
+
+#contant #news div hr {
+  width: 325px;
+  margin: 0px auto;
+}
+
+#contant #news div p {
+  width: 322px;
+  margin: 28px auto 0px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 4.8px;
+  line-height: 1.88;
+}
+
+#contant #news div img {
+  width: 320px;
+  height: 320px;
+  margin: 31px 30px 41px;
 }
 /*# sourceMappingURL=style.css.map */
