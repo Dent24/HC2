@@ -2,6 +2,7 @@ $green: #49aa45;
 $gray333: #333333;
 $yellow: #f5bb28;
 $grayccc: #cccccc;
+$black25: #252525;
 
 *{
     margin: 0;
@@ -205,7 +206,7 @@ nav{
             font-weight: 300;
             letter-spacing: 5.4px;
             background: rgba(0,0,0,0);
-            border: 1px solid black;
+            border: 1px solid $black25;
         }
     }
 
